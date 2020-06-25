@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css?family=Lalezar&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+.logo {
+    font-family: Lalezar;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 56px;
+}
+
+.flexNav {
+    display: flex;
+    vertical-align: top;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vMarginNone {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.topMarginS {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.topMarginM {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.topMarginL {
+    margin-top: 54px;
+    margin-bottom: 0;
+}
+
+.container {
+    position: relative;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0px;
+}
+
+.h2 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 51px;
+    line-height: 70px;
+}
+
+.h3 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 52px;
+}
+
+.h4 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+}
+
+.h5 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 29px;
+}
+.p {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+a {
+    color: #5471D2;
+    text-decoration: none;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+header {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+section {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 24px 17px;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #002171;
+}
+
+.heroContent img {
+    height: 431px;
+    padding-left: 34px;
+}
+
+.heroContent.container-with-grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 33% 67%;
+    grid-template-areas: "heroImg heroAbout";
+}
+.heroImg {
+    margin-top: 54px;
+    margin-bottom: 54px;
+    grid-area: heroImg;
+  }
+  .heroAbout {
+    margin-top: 54px;
+    margin-bottom: 54px;
+    padding-left: 34px;
+    padding-left: 34px;
+    grid-area: heroAbout;
+    color: white;
+  }
+ 
+footer {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+  .footerContent.container-with-grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-areas: "footerCopyright footerLinkedIn footerContact";
+}
+
+.footerCopyright {
+    margin-top: 54px;
+    margin-bottom: 54px;
+    margin-left: 34px;
+    margin-right: 34px;
+    grid-area: footerCopyright;
+  }
+
+  .footerLinkedIn {
+    margin-top: 54px;
+    margin-bottom: 54px;
+    margin-left: 34px;
+    margin-right: 34px;
+    grid-area: footerLinkedIn;
+  }
+
+  .footerContact {
+    margin-top: 54px;
+    margin-bottom: 54px;
+    margin-left: 34px;
+    margin-right: 34px;
+    grid-area: footerContact;
+  }
+
+  .ghost-button {
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 48px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+  }
+
+.skills {
+    margin-top: 88px;
+}
+
+  .skillsHeading {
+    margin-left: 34px;
+    margin-right: 34px;
+    margin-top: 54px;
+    margin-bottom: 20px;
+  }
+
+  .skillsContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .skillsContainer {
+      flex-basis: 33%;
+      background-color: #5471D2;
+      margin: 34px;
+      padding-top: 34px;
+      padding-bottom: 34px;
+      padding-left: 34px;
+      padding-right: 34px;
+      border-radius: 20px;
+      height: 345px;
+  }
+
+  .workContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .workContainer {
+    flex-basis: 50%;
+    margin-left: 34px;
+    margin-right: 34px;
+}
+
+.workImgContainer {
+    background-color: #5471D2;
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+.workImg {
+    height: 412px;
+    margin: auto;
+    display: block;
+}
+
+.workHeading {
+    margin-left: 34px;
+    margin-right: 34px;
+    margin-top: 54px;
+    margin-bottom: 20px;
+  }
+
+
+  @media only screen and (max-width: 900px) {
+    .workHeading {
+        margin: auto;
+        width: 280px;
+    }
+
+    .workContent {
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .workContainer {
+        margin: auto;
+        width: 280px;
+    }
+
+    .workImg {
+        height: 220px;
+        margin: auto;
+        display: block;
+    }
+
+    .heroImg {
+        display: none;
+    }
+
+    .heroContent {
+        height: 500px;
+    }
+
+    .heroContent.container-with-grid {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 100%;
+        grid-template-areas: "heroAbout";
+    }
+
+    .skillsContent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*Change to h3*/
+    .h2 {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 52px;
+    }
+
+    /*Change to h4*/
+    .h3 {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    /*Change to semibold p*/
+    .h4 {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    /*Change to p*/
+    .h5 {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    .mobileVSpaceM {
+        margin-top: 54px;
+    }
+
+    .topMarginL {
+        margin-top: 24px;
+    }
+  }

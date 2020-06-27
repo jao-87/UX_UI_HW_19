@@ -36,6 +36,16 @@
     margin-bottom: 0;
 }
 
+.topMarginXXL {
+    margin-top: 142px;
+    margin-bottom: 0;
+}
+
+.horizontalMarginL {
+    margin-left: 88px;
+    margin-right: 88px;
+}
+
 .container {
     position: relative;
 }
@@ -242,13 +252,39 @@ footer {
 
 .workImgContainer {
     background-color: #5471D2;
-    padding-top: 34px;
-    padding-bottom: 34px;
+    height: 480px;
+    position: relative;
 }
+
+.workImgOverlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(6px);
+    background: rgba(0,0,0,.5);
+    opacity: 0;
+    transition: .3s all;
+}
+.workImgOverlay:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.workImgOverlay:active {
+    color: #bdbdbd;
+}
+
+
 .workImg {
     height: 412px;
-    margin: auto;
-    display: block;
+    width: 236px;
+    top: 34px;
+    left: calc(50% - 118px);
+    position: absolute;
 }
 
 .workHeading {

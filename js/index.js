@@ -1,5 +1,5 @@
 $('#workWash').on("click", function(){
-    window.location.href = "https://docs.google.com/presentation/d/1L9ZPCtjIvoQYujcwI29U8J67t_na4neyZYPnjZOy1ws/edit#slide=id.p";
+    window.location.href = "https://jao-87.github.io/UX_UI_HW_20/";
 });
 
 $('#workCurEater').on("click", function(){
